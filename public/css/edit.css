@@ -1,0 +1,44 @@
+*{
+    overflow: hidden;
+
+}
+body{
+    background-image: url(../img/pexels-karolina-grabowska-8947692.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h3{
+position: absolute;
+top: 25%;
+left: 40%;
+}
+
+#a{
+  position: absolute;
+ top: 25%;
+ left: 30%;
+
+}
+#input{
+    position: absolute;
+top: 75%;
+left: 45%;
+
+}
+
+
+
+
+section{
+    margin: 15rem 20rem 17rem 20rem;
+    overflow: hidden;
+
+
+}
+.inputs{
+    position:relative;
+    left: 20%;
+
+}
