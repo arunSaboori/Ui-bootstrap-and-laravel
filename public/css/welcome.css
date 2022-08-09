@@ -64,10 +64,10 @@ article {
 /* aside part */
 aside {
     position: absolute;
-    top: 200%;
+    top: 180%;
     padding: 8.5rem 0rem;
     background-color: rgb(125, 125, 228);
-    padding: 10rem 0rem;
+    padding: 10rem 0px 14rem 0rem;
 }
 .aside-text {
     transform: translateY(-4rem);
