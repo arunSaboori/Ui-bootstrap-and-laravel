@@ -15,18 +15,16 @@
 </head>
 
 <body>
-    <header class="navbar navar-expand-lg  sticky-top  px-5 navbar1">
-        <div class="container-fluid">
+      <header class="navbar navar-expand-lg  sticky-top   navbar1 ">
+        <div class="container-fluid ">
             <img src="{{ asset('img/joystick.svg') }}" class="img1">
-            <a href="" class="navbar-brand">mycrud</a>
-            <a href="" class="navbar-brand">home</a>
-            <a href="" class="navbar-brand">about me :\</a>
-
+            <div class="d-flex align-items-baseline px-4"> 
+            <a href="" class="navbar-brand px-3">mycrud</a>
+            <a href="" class="navbar-brand px-3">home</a>
+            <a href="" class="navbar-brand px-3">about me </a>
+           </div>
         </div>
-
-
-
-    </header>
+      </header>
 
 
     <section>
@@ -36,9 +34,45 @@
                 class="btn btn3 rounded-pill">try now</a>
         </div>
         <img src="{{ asset('img/pexels-eda-11482477.jpg') }}" class="img-fluid  img2">
-
-
     </section>
+
+
+
+    <article  >
+      <div class="article-text text-center">our product</div>
+      <div class="d-flex text-center justify-content-center justify-content-evenly"> 
+        <div class="card" style="width: 18rem;">
+            <img src="{{ asset('img/dollar.jpg') }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">first month trial</h5>
+                <p class="card-text"> only pay 5$ month
+                     </p>
+                <a href="#" class="btn btn-primary">  go</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="{{ asset('img/dollar.jpg') }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">perimium pack</h5>
+                <p class="card-text"> 9.99$ per month with 12 hours support
+                   </p>
+                <a href="#" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="{{ asset('img/dollar.jpg') }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">golden pack</h5>
+                <p class="card-text"> 24.99$ dollars 24 hours support extra extention
+                     </p>
+                <a href="#" class="btn btn-primary">Go</a>
+            </div>
+        </div>
+    </div>
+    </article>
+
+
+
     <aside class="container-fluid">
         <h1 class="aside-text">well we are doing this <br> for years now</h1>
 
@@ -62,35 +96,33 @@
         </div>
 
 
-
-
     </aside>
 
     <footer class="container-fluid bg-dark text-center">
-     <div class="divfooter"> 
-        <div class="conteainer">
-            <div>
-                <ul class="list-unstyled mb-0 ul1">
-                    <div class="text-light fs-4">about us</div>
-                    <li> <a href="" class=" ">about us</a></li>
-                    <li> <a href="">join now</a></li>
-                    <li> <a href="">about crud</a></li>
-                    <li> <a href="">learn more</a></li>
-                </ul>
-            </div>
+        <div class="divfooter">
+            <div class="conteainer">
+                <div>
+                    <ul class="list-unstyled mb-0 ul1">
+                        <div class="text-light fs-4">about us</div>
+                        <li> <a href="" class=" ">about us</a></li>
+                        <li> <a href="">join now</a></li>
+                        <li> <a href="">about crud</a></li>
+                        <li> <a href="">learn more</a></li>
+                    </ul>
+                </div>
 
-           </div >
-           <ul class="list-unstyled mb-0 ">
-            <div class="text-light fs-4">connect us</div>
-            <li> <a href="">contect us</a></li>
-            <li> <a href="">need more workers</a></li>
-            <li> <a href="">carees</a></li>
             </div>
-         </ul>
-    </div>
+            <ul class="list-unstyled mb-0 ">
+                <div class="text-light fs-4">connect us</div>
+                <li> <a href="">contect us</a></li>
+                <li> <a href="">need more workers</a></li>
+                <li> <a href="">carees</a></li>
+        </div>
+        </ul>
+        </div>
 
         <div>
-            <h5 class="text-light last-text"> all content are served to this website arun.saboori 2012 - 2022</h5>
+            <h5 class="text-light last-text"> all content are belong to this website arun.saboori 2012 - 2022</h5>
         </div>
     </footer>
 
